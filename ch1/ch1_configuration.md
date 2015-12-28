@@ -17,7 +17,7 @@ For Gingerbread (2.3.x) and newer versions, including the master branch, a 64-bi
 ## Installing required packages  ##
 
 
-    sudo apt-get install git-core gnupg flex bison gperf build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev ccache libgl1-mesa-dev libxml2-utils xsltproc unzip android-tools-fastboot android-tools-adb
+    sudo apt-get install git-core gnupg flex bison gperf build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev ccache libgl1-mesa-dev libxml2-utils xsltproc unzip android-tools-fastboot android-tools-adb python
 
 # Configuring GIT
 Just remember to configure your user and email for Github:
