@@ -1,6 +1,7 @@
 # Prerequisites #
 - An Android device supported in CyanogenMod 12.1.
 - A computer or **virtual machine** with Ubuntu 14.04 LTS (or later) installed. You will need a **64-bit version of Ubuntu**. Ubuntu 14.04 is recommended.
+- It will need at least **40 GB** for the repositories. So, take into consideration when assigning the disk capacity for the virtual machine. It will be explained when configuring the repositories.
 
 # Set up your Ubuntu 14.04 LTS (or later) build system #
 Since both Firefox OS and CyanogenMod use an AOSP base, it is (almost) enough to follow the [guide for AOSP](https://source.android.com/source/initializing.html) provided by Google.
