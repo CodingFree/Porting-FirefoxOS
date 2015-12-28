@@ -3,6 +3,28 @@
 - A computer or **virtual machine** with Ubuntu 14.04 LTS (or later) installed. You will need a **64-bit version of Ubuntu**. Ubuntu 14.04 is recommended.
 - It will need at least **40 GB** for the repositories. So, take into consideration when assigning the disk capacity for the virtual machine. It will be explained when configuring the repositories.
 
+# Does it support Cyanogen 12.1? #
+
+You can check if your device supports Cyanogen 12.1 checking the [official webpage](https://download.cyanogenmod.org/). 
+
+Also, you can check if there is an [unofficial port](https://wiki.cyanogenmod.org/w/Unofficial_Ports) for your device.
+
+If you don't find your device there, there is still hope. Sometimes it's quite difficult to keep the documentation up-to-date, so probably someone has released a port in [the XDA Developers forum](http://forum.xda-developers.com/). Ask them or Google for it.
+
+# I want to use my Ubuntu... #
+
+It is discouraged to use your daily OS, since you will download a lot of files, you will install a lot of tools and your will set a lot of environmental variables that may be in conclict (for example, you may need to change the version of your compilers, who knows).
+
+Even if you use Ubuntu, you are encouraged to create a virtual machine. But anyways, if you want to check if your Linux can do it, use this command:
+    uname -a
+
+You will get somethng like this:
+
+- Dec 1 02:35:20 UTC 2015 i686 i686 i686 GNU/Linux
+
+Basically, i686 is 32 bits and x64_64 would be 64 bits.
+
+
 # Set up your Ubuntu 14.04 LTS (or later) build system #
 Since both Firefox OS and CyanogenMod use an AOSP base, it is (almost) enough to follow the [guide for AOSP](https://source.android.com/source/initializing.html) provided by Google.
 
